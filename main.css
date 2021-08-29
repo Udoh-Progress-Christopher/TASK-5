@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: Times New Roman;
+    background: black;
+    color:white;
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .body{
+        padding: 3em 4em ;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+/* //////----jumbotron styling-----//////// */
+.jumbotron{
+    display: flex;
+    width: 100%;
+    flex-flow:column;
+    align-items: center;
+}
+#bio{
+    font-size: 3.8rem;
+    margin: 0;
+    padding: 0.7rem 0rem;
+}
+.light-font{
+    font-weight: lighter;
+    color:rgb(185, 185, 185);
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+.bold-font{
+    font-weight:bolder;
+    color:white;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+.article{
+    text-align: justify;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+#name{
+    font-size: 25px;
+}
+
+/* //////----  SECOND SECTION----//////// */
+.second-section{
+    display: flex;
+    justify-content: space-around;
+ }
+.big_text, .small_text{
+    width: 40%;
+    margin: 120px 0px;           
+}
+a{
+    font-family: Times New Roman;
+    text-decoration: none;            
+}
+.chat-now{
+    display: flex;
+    align-items: center;
+}
+.big{
+    font-size: 2.5rem;
+}
+
+/* //////----  THIRD SECTION----//////// */
+.third-section{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.we-do{
+    text-align: center;
+}
+.one{
+    font-size: 3.8rem;
+    padding: 2rem 0rem;
+    text-align: center;
+    width: 100%;
+    border-bottom: solid 1px grey ;
+}
+
+/* //////----  GALLERY SECTION----//////// */
+.gallery{
+    margin: 1.3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.wrap-gallery{
+    margin: 5rem 0rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.disp-set{
+    width: 100%;
+    display: flex;
+}
+.disp{
+    height: 20rem;
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 2em ;
+    
+}
+.img{
+    transition-duration:0.5s;
+}
+.img:hover{
+    width: 21.6rem;
+    filter: brightness(75%);
+}
+.learn-more{
+    font-weight: bold;
+    padding: 1.2rem 3.5rem;
+    font-size: 1.3rem;
+    border: solid white 2px;
+    letter-spacing: 2.5px;
+    background:black;
+    color: white;
+    transition-duration: 0.2s ;
+}
+.learn-more:hover{
+    background:white;
+    color: black;
+}
+ /* //////----  FOOTER SECTION----//////// */
+ .footer{
+     width:100% ;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+    }
+    .almost-bold-font{
+        font-weight:100px;
+        font-size:18px;
+        padding:1.5rem;
+        margin: 0;
+        text-align: center;
+    }
+    .contact-address{
+        border-bottom: solid white 8px;
+    }
+    .contact-info{
+        font-size: 25px;
+    }   
+    
+    /* //////----  FOOTER SECTION----//////// */
+    .footer-line{
+        width: 100%;
+        background: rgb(56, 56, 56);
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-line-text{
+        padding: 2rem;
+    }
+    .last-line{
+        display: flex;
+    }
+    
